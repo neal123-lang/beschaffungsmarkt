@@ -131,9 +131,11 @@ input:focus {
 }
 
 .home-2-head {
+    width: fit-content;
     padding: 4px 12px;
     border-radius: 9999px;
     border: 1px solid #9ca3af;
+    background-color: #fff;
 }
 
 .home-2-head span {
@@ -588,3 +590,231 @@ footer{
 }
 
 /* Footer css ends */
+
+/* Overview css starts */
+
+.overview-wrapper{
+    background-color: #eff6ff;
+    padding: 40px 0 40px 0;
+}
+.overview-head h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 30px;
+}
+.overview-head h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin: 15px 0px;
+}
+.overview-head p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #4b5563;
+    line-height: 23px;
+    margin-bottom: 0px;
+}
+.overview-img img{
+    width: 100%;
+}
+.overview-breadcrumb{
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 15px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    font-weight: 400;
+}
+.overview-breadcrumb .breadcrumb-item a{
+    text-decoration: none;
+    color: #000;
+
+}
+.overview-breadcrumb .breadcrumb-item.active{
+    color: #3b82f6;
+}
+
+@media(max-width: 767px){
+    .overview-wrapper {
+        padding: 30px 0 30px 0;
+    }
+    .overview-head h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .overview-head h3 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+/* Overview css ends */
+
+
+/* Service page css starts */
+
+
+.service-box-wrapper{
+    width: 100%;
+    padding: 50px 0px;
+}
+.service-box{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.service-icon{
+    display: flex;
+    align-items: center;
+}
+.service-icon img{
+    width: 100%;
+}
+.icon-bg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #285ad6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-bg svg{
+    color: #fff;
+    font-size: 28px;
+}
+.service-icon-head h2{
+    font-size: 22px;
+    font-weight: 700;
+     color: #285ad6;
+     margin-left: 14px;
+     margin-bottom: 0px;
+}
+.service-content h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin: 15px 0px;
+}
+.service-content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #474b51;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.service-content ul{
+    margin: 0;
+    padding: 0px 0px 0px 16px;
+}
+.service-content ul li{
+    font-size: 15px;
+    font-weight: 400;
+    color: #474b51;
+    line-height: 24px;
+    margin-top: 12px;
+}
+.serv-desc-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    margin: 20px 0px;
+}
+.serv-desc-content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #474b51;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+.serv-desc-content ul{
+    margin: 0 0 25px 0px;
+    padding: 0px 0px 0px 16px;
+}
+.serv-desc-content ul li{
+    font-size: 15px;
+    font-weight: 400;
+    color: #474b51;
+    line-height: 24px;
+    margin-top: 12px;
+}
+.service-desc-img{
+    text-align: right;
+}
+.service-desc-img img{
+    width: 75%;
+}
+.serv-wrap{
+    margin: 70px 0px;
+}
+.service-desc-img-2 img{
+    width: 75%;
+}
+
+@media(max-width : 1300px){
+    .service-box {
+        padding: 18px;
+    }
+    .service-icon-head h2 {
+        font-size: 18px;
+        margin-left: 8px;
+    }
+    .icon-bg {
+        width: 44px;
+        height: 44px;
+    }
+    .icon-bg svg {
+        font-size: 24px;
+    }
+    .service-content h3 {
+        font-size: 17px;
+    }
+    .service-desc-img img {
+        width: 90%;
+    }
+    .service-desc-img-2 img {
+        width: 90%;
+    }
+}
+
+@media(max-width : 767px){
+    .service-box {
+        padding: 16px;
+    }
+    .service-icon-head h2 {
+        font-size: 19px;
+        margin-left: 8px;
+    }
+    .icon-bg {
+        width: 44px;
+        height: 44px;
+    }
+    .icon-bg svg {
+        font-size: 24px;
+    }
+    .service-content h3 {
+        font-size: 18px;
+    }
+    .service-desc-img img {
+        width: 100%;
+    }
+    .service-desc-img-2 img {
+        width: 100%;
+    }
+    .serv-desc-content h3 {
+        font-size: 26px;
+    }
+    .serv-wrap {
+        margin: 40px 0px;
+    }
+}
