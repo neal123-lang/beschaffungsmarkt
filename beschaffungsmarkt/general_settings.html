@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Beschaffungsmarkt</title>
+
+</head>
+<body>
+
+  <!-- Sidebar -->
+   <div class="sidebar">
+        <div class="profile">
+            <img src="assets/images/user-avatar-CZ6R_fL7.webp" alt="Profile">
+            <h6 class="mt-2">Steve Smith</h6>
+        </div>
+
+    <a href="#">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path></svg> 
+        Home</a>
+    <a href="#">
+        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg> 
+        Message</a>
+
+    <!-- Accordion Menu -->
+    <div class="sidebar-accordion" id="accordionPanelsStayOpenExample">
+      
+      <!-- Company -->
+      <div class="sidebar-accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#companyMenu">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"></path></svg>
+           Company
+          </button>
+        </h2>
+        <div id="companyMenu" class="accordion-collapse collapse" data-bs-parent="#sidebarAccordion">
+            <div class="accordion-body">
+                <ul>
+                    <li><a href="#">General Settings</a></li>
+                    <li><a href="#">Contact Settings</a></li>
+                    <li><a href="#">Product Management</a></li>
+                    <li><a href="#">Certificates</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+      <!-- Post Center -->
+      <div class="sidebar-accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#postCenterMenu">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M17 19.22H5V7h7V5H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-7h-2v7.22z"></path><path d="M19 2h-2v3h-3c.01.01 0 2 0 2h3v2.99c.01.01 2 0 2 0V7h3V5h-3V2zM7 9h8v2H7zM7 12v2h8v-2h-3zM7 15h8v2H7z"></path></svg>
+            Post Center
+          </button>
+        </h2>
+        <div id="postCenterMenu" class="accordion-collapse collapse" data-bs-parent="#sidebarAccordion">
+            <div class="accordion-body">
+                <ul>
+                    <li><a href="#">My Posts</a></li>
+                    <li><a href="#">Add New Post</a></li>
+                    <li><a href="#">Favourites</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+      <!-- Settings -->
+      <div class="sidebar-accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#settingsMenu">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 14V16C8.68629 16 6 18.6863 6 22H4C4 17.5817 7.58172 14 12 14ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11ZM14.5946 18.8115C14.5327 18.5511 14.5 18.2794 14.5 18C14.5 17.7207 14.5327 17.449 14.5945 17.1886L13.6029 16.6161L14.6029 14.884L15.5952 15.4569C15.9883 15.0851 16.4676 14.8034 17 14.6449V13.5H19V14.6449C19.5324 14.8034 20.0116 15.0851 20.4047 15.4569L21.3971 14.8839L22.3972 16.616L21.4055 17.1885C21.4673 17.449 21.5 17.7207 21.5 18C21.5 18.2793 21.4673 18.551 21.4055 18.8114L22.3972 19.3839L21.3972 21.116L20.4048 20.543C20.0117 20.9149 19.5325 21.1966 19.0001 21.355V22.5H17.0001V21.3551C16.4677 21.1967 15.9884 20.915 15.5953 20.5431L14.603 21.1161L13.6029 19.384L14.5946 18.8115ZM18 19.5C18.8284 19.5 19.5 18.8284 19.5 18C19.5 17.1716 18.8284 16.5 18 16.5C17.1716 16.5 16.5 17.1716 16.5 18C16.5 18.8284 17.1716 19.5 18 19.5Z"></path></svg>
+            Settings
+          </button>
+        </h2>
+        <div id="settingsMenu" class="accordion-collapse collapse" data-bs-parent="#sidebarAccordion">
+            <div class="accordion-body">
+                <ul>
+                    <li><a href="#">Profile Settings</a></li>
+                    <li><a href="#">Account Security</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <h4 class="mb-3">General Settings</h4>
+    <div class="card p-4 shadow-sm">
+    
+      <form action="#">
+
+        <div class="row g-3 mt-3">
+            <!-- Company Logo -->
+        <div class="col-md-6">
+         <div class="upload-box text-center">
+          Click to upload
+        </div>
+        </div>
+
+        <!-- Company Name -->
+        <div class="col-md-6">
+          <label for="company_name">Company Name</label>
+          <input type="text" class="form-control mb-4" id="company_name" aria-describedby="company_name" placeholder="Smith's Firm">
+
+          <label for="company_description" class="d-flex justify-content-between">
+            <span>Company Description</span>
+            <span class="flag-icons">
+              <img src="https://flagcdn.com/us.svg" alt="US">
+              <img src="https://flagcdn.com/tr.svg" alt="TR">
+              <img src="https://flagcdn.com/de.svg" alt="DE">
+            </span>
+          </label>
+          <textarea class="form-control" placeholder="Company Description" rows="5" cols="50"></textarea>
+        </div>
+
+        </div>
+        
+
+        <div class="row g-3 mt-3">
+        <!-- Company Type -->
+            <div class="col-md-6">
+                <label for="c_type">Company Type</label>
+                    <select name="c_type" id="c_type">
+                        <option value="0" selected disabled>Select the type</option>
+                        <option value="1">Incorporated</option>
+                        <option value="2">Limited</option>
+                        <option value="2">Private</option>
+                        <option value="2">Unlimited</option>
+                    </select>
+            </div>
+
+        <!-- Taxpayer ID -->
+            <div class="col-md-6">
+                <label for="taxpayer_id">Taxpayer ID</label>
+                <input type="text" class="form-control" id="taxpayer_id" aria-describedby="taxpayer_id" placeholder="Taxpayer ID">
+            </div>
+
+            <!-- Company Segment -->
+            <div class="col-md-6">
+                <label for="c_segment">Company Segment</label>
+                    <select name="c_segment" id="c_segment">
+                        <option value="0" selected disabled>Select the segment</option>
+                        <option value="1">Import</option>
+                        <option value="2">Export</option>
+                        <option value="2">Investment</option>
+                        <option value="2">Distributor</option>
+                    </select>
+            </div>
+
+            <!-- Fax Number -->
+            <div class="col-md-6">
+                <label for="fax_number">Fax Number</label>
+                <input type="text" class="form-control" id="fax_number" aria-describedby="fax_number" placeholder="Fax Number">
+            </div>
+
+            <!-- Main Category -->
+            <div class="col-md-6">
+                <label for="main_category">Main Category</label>
+                    <select name="main_category" id="main_category">
+                        <option value="0" selected disabled>Select the category</option>
+                        <option value="1">Fashion & Accessories</option>
+                        <option value="2">Shoes</option>
+                        <option value="2">Textile & Leather</option>
+                        <option value="2">Automotive</option>
+                    </select>
+            </div>
+
+            <!-- Website -->
+            <div class="col-md-6">
+                <label for="website">Website</label>
+                <input type="text" class="form-control" id="website" aria-describedby="website" placeholder="Website">
+            </div>
+
+        </div>
+            <div class="sidebar-footer-buttons d-flex justify-content-end mt-4">
+                <button class="btn btn-primary me-3">Save</button>
+                <button class="btn btn-outline-secondary">Cancel</button>
+            </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
